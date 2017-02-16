@@ -1,5 +1,12 @@
 subgraph-gnupg-config (1.1) unstable; urgency=medium
 
+  * Removed xdg autostart
+  * Added dirmngr config and updated gpg.conf
+
+ -- David McKinney <mckinney@subgraph.com>  Thu, 16 Feb 2017 18:25:00 -0400
+
+subgraph-gnupg-config (1.1) unstable; urgency=medium
+
   * Added /etc/xdg/autostart/gnupg-agent.desktop 
 
  -- David McKinney <mckinney@subgraph.com>  Mon, 24 Oct 2016 15:37:43 -0400
