@@ -1,0 +1,13 @@
+Source: subgraph-gnupg-config
+Section: config
+Priority: standard
+Maintainer: David McKinney <mckinney@subgraph.com>
+Build-Depends: debhelper (>=9), config-package-dev
+Standards-Version: 3.9.6
+Homepage: https://subgraph.com/sgos/index.en.html
+
+Package: subgraph-gnupg-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GPG preferences for Subgraph OS.
+ Config for GPG such as duraconf defaults from Riseup OpenPGP Best Practices, etc.

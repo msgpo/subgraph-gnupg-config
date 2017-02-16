@@ -1,0 +1,11 @@
+subgraph-gnupg-config (1.1) unstable; urgency=medium
+
+  * Added /etc/xdg/autostart/gnupg-agent.desktop 
+
+ -- David McKinney <mckinney@subgraph.com>  Mon, 24 Oct 2016 15:37:43 -0400
+
+subgraph-gnupg-config (1.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- David McKinney <mckinney@subgraph.com>  Fri, 13 May 2016 20:07:43 +0000

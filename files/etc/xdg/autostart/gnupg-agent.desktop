@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=GnuPG Key Agent
+Comment=GNUPG User Agent: GnuPG Agent
+Exec=/usr/bin/gpg-agent --use-standard-socket --daemon
+OnlyShowIn=GNOME;Unity;MATE;
+X-GNOME-Autostart-Phase=PreDisplayServer
+X-GNOME-AutoRestart=false
+X-GNOME-Autostart-Notify=true
